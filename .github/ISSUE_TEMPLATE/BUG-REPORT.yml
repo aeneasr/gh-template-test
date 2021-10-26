@@ -9,8 +9,8 @@ body:
     type: markdown
   - 
     attributes: 
-      description: "By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)"
-      label: "Code of Conduct"
+      description: "By submitting this issue, please go through the questions below."
+      label: "Preflight checklist"
       options: 
         - 
           label: "I could not find a solution in the existing issues, docs, nor discussions."
@@ -21,7 +21,13 @@ body:
         - 
           label: "I have read and am following this repository's [Contribution Guidelines](https://github.com/ory/hydra/blob/master/CONTRIBUTING.md)."
           required: true
-    id: terms
+        - 
+          label: "This issue affects my [Ory Cloud](https://www.ory.sh/) project."
+        - 
+          label: "I have joined the [Ory Community Slack](https://slack.ory.sh)."
+        - 
+          label: "I am signed up to the [Ory Security Patch Newsletter](https://ory.us10.list-manage.com/subscribe?u=ffb1a878e4ec6c0ed312a3480&id=f605a41b53)."
+    id: checklist
     type: checkboxes
   - 
     attributes: 
@@ -77,8 +83,9 @@ body:
       required: true
   - 
     attributes: 
-      label: "Operating System"
+      label: "On which operating system are you observing this issue?"
       options: 
+        - Ory Cloud
         - macOS
         - Linux
         - Windows
@@ -90,6 +97,7 @@ body:
     attributes: 
       label: "In which environment are you deploying?"
       options: 
+        - Ory Cloud
         - Docker
         - "Docker Compose"
         - "Kubernetes with Helm"
