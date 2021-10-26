@@ -41,7 +41,7 @@ body:
   - 
     attributes: 
       description: |
-          Clear, formated, and easy to follow steps to reproduce the behavior:
+          Clear, formatted, and easy to follow steps to reproduce the behavior:
       placeholder: |
         Steps to reproduce the behavior:
 
