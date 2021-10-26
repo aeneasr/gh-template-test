@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for suggesting an idea for this project!
         
-        If you already have a plan to implement a feature or a change, please create a design doc instead!
+        If you already have a plan to implement a feature or a change, please create a [design document](https://github.com/aeneasr/gh-template-test/issues/new?assignees=&labels=rfc&template=DESIGN-DOC.yml) instead if the change is non-trivial!
     type: markdown
   - 
     attributes: 
