@@ -19,7 +19,6 @@ body:
     type: markdown
   - 
     attributes: 
-      description: "By submitting this issue, please go through the questions below."
       label: "Preflight checklist"
       options: 
         - 
