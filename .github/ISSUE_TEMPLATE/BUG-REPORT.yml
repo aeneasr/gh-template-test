@@ -1,10 +1,7 @@
-
-
 description: "Create a bug report"
 labels: 
   - bug
 name: "Bug Report"
-title: ""
 body: 
   - 
     attributes: 
@@ -50,7 +47,7 @@ body:
       description: "Please copy and paste any relevant configuration. This will be automatically formatted into code, so no need for backticks."
       label: "Relevant configuratino"
       render: yml
-    id: logs
+    id: config
     type: textarea
   - 
     attributes: 
