@@ -54,7 +54,7 @@ body:
       description: "What version of our software are you running?"
       label: Version
     id: version
-    type: text
+    type: input
     validations: 
       required: true
   - 
