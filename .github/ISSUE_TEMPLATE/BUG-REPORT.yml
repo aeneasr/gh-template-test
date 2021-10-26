@@ -1,4 +1,10 @@
---- 
+
+
+description: "Create a bug report"
+labels: 
+  - bug
+name: "Bug Report"
+title: ""
 body: 
   - 
     attributes: 
@@ -86,8 +92,3 @@ body:
           required: true
     id: terms
     type: checkboxes
-description: "Create a bug report"
-labels: 
-  - bug
-name: "Bug Report"
-title: ""
