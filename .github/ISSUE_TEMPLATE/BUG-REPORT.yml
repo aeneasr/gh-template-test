@@ -1,0 +1,93 @@
+--- 
+body: 
+  - 
+    attributes: 
+      value: "Thanks for taking the time to fill out this bug report!\n"
+    type: markdown
+  - 
+    attributes: 
+      description: "How can we get in touch with you if we need more info?"
+      label: "Contact Details"
+      placeholder: "ex. email@example.com"
+    id: contact
+    type: input
+    validations: 
+      required: false
+  - 
+    attributes: 
+      description: "A clear and concise description of what the bug is."
+      label: "Describe the bug"
+      placeholder: "Tell us what you see!"
+    id: describe-bug
+    type: textarea
+    validations: 
+      required: true
+  - 
+    attributes: 
+      description: |
+          Clear, formated, and easy to follow steps to reproduce the behavior:
+          placeholder: e.g.: You can reproduce this issue by running the quickstart and doing `curl ...`
+      label: "Reproducing the bug"
+    id: reproduce-bug
+    type: textarea
+    validations: 
+      required: true
+  - 
+    attributes: 
+      description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks."
+      label: "Relevant log output"
+      render: shell
+    id: logs
+    type: textarea
+  - 
+    attributes: 
+      description: "Please copy and paste any relevant configuration. This will be automatically formatted into code, so no need for backticks."
+      label: "Relevant configuratino"
+      render: yml
+    id: logs
+    type: textarea
+  - 
+    attributes: 
+      description: "What version of our software are you running?"
+      label: Version
+    id: version
+    type: text
+    validations: 
+      required: true
+  - 
+    attributes: 
+      label: "Operating System"
+      options: 
+        - macOS
+        - Linux
+        - Windows
+        - FreeBSD
+        - Other
+    id: deployment
+    type: dropdown
+  - 
+    attributes: 
+      label: "Where are you deploying?"
+      options: 
+        - Docker
+        - "Docker Compose"
+        - "Kubernetes with Helm"
+        - Kubernetes
+        - Other
+    id: deployment
+    type: dropdown
+  - 
+    attributes: 
+      description: "By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)"
+      label: "Code of Conduct"
+      options: 
+        - 
+          label: "I agree to follow this project's Code of Conduct"
+          required: true
+    id: terms
+    type: checkboxes
+description: "Create a bug report"
+labels: 
+  - bug
+name: "Bug Report"
+title: ""
